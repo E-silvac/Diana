@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: candara;
+}
+
+.header{float: left; padding: 5px; background: #2E86C1; width: 100%;color:white;}
+.logo {float:left;padding-top: 10px;}
+.logo a img{width: 80px; padding: 10px;}
+.logo a{padding-left: 10px;padding-right: 10px;}
+.logo span{font-size: 20px;}
+.menu{float:right; padding: 25px;}
+.menu a {padding: 25px;}
+.menu nav span a{color: white; text-decoration: none; font-size: 20px;}
+.menu nav span a:hover{color: #72727E ;background: white; transition: all .3s;}
+.imagencabe a img{width: 100%; }
+.submenu{
+  position: absolute;
+  background: #2E9AFE;
+  width: 120%;
+  visibility: hidden;
+  opacity: 10px;
+  transition: opacity 1s;
+}
+.submenu span a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: candara;
+  text-decoration: none;
+}
+.menu span:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu > nav > span {
+  position: relative;
+  display: inline-block;
+}
